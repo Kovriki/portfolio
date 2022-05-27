@@ -1,0 +1,95 @@
+body {
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+
+
+}
+nav{
+  position: relative;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-right: 5vw;
+  margin-top: 2vw;
+}
+.project-block{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-block a{
+  height: 400px;
+  min-width: calc(100vw - 6em);
+  border-radius: 1em;
+  padding-top: 1em;
+  padding-left: 2em;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h3{
+  margin: 0;
+}
+.pr1 {
+  background-image: url("../images/wander_cycles.png");
+}
+.tag{
+  background-color: yellow;
+  color: #222;
+  width: fit-content;
+  border-radius: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.about, .cv, footer{
+  padding-left: 3rem;
+}
+.about p {
+  font-size: 2em;
+}
+h2 {
+  width: 50%;
+  font-size: 4em;
+  margin-bottom: 1em;
+}
+table {
+  margin-top: 3rem;
+  width: 90vw;
+  font-size: 2em;
+}
+tr {
+  padding-bottom: 0.5rem;
+}
+th{
+  padding-bottom: 1em;
+  text-align: left;
+  font-size: 1rem;
+}
+td{
+  padding-bottom: 1em;
+  text-align: left;
+  line-height: 1.2em;
+}
+td:first-child {
+  width: 20%;
+}
+td:last-child {
+  width: 60%;
+}
+
+footer p {
+  margin-bottom: .2em;
+}
